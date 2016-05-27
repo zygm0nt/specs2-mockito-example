@@ -1,0 +1,39 @@
+# Temporary files used by editors.
+*~
+*.swp
+.#*
+\#*
+.DS_Store
+
+# Project files from IDEs.
+.classpath
+.project
+.settings
+prj.el
+.jde/
+TAGS
+.taglist
+nb-configuration.xml
+nbactions.xml
+.ensime
+.idea/
+*.iml
+
+# Build and run artifacts.
+.vagrant/
+target/
+build/
+tycho
+/logs/
+pids/
+sbt-launch*.jar
+*.pyc
+reco-rest/conf
+reco-analyzer/conf
+reco-rest/logs
+reco-analyzer/derby.log
+reco-analyzer/metastore_db
+*/src/main/resources/application.conf
+reco-rest/src/main/resources/logback.xml
+reco-rtp/src/main/resources/logback.xml
+reco-rest/src/main/resources/application-local.conf
